@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+       <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your School Name</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background-image: url("assets/img/masjid.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; color: white; padding: 20px 0; text-align: center; }
+    nav { background: #003366; padding: 10px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    section { padding: 30px; }
+    footer { background: #7d8083; color: white; text-align: center; padding: 15px; }
+    h2 { color: #003366; }
+    .container { max-width: 1000px; margin: auto; }
+    ul { list-style: none; padding-left: 0; }
+    ul li { margin-bottom: 10px; }
+    .gallery img { width: 30%; margin: 1%; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: space-around; }
+    iframe { width: 100%; height: 300px; border: 0; }
+    form input, form textarea, form button {
+      width: 100%; padding: 10px; margin: 5px 0; border-radius: 5px; border: 1px solid #ccc;
+    }
+    form button { background: #004080; color: white; border: none; }
+     
+  </style>
+</head>
+
+    
+<header>
+    
+  <h1>MAHDANUL ULUM MADARSA</h1>
+  <p style="color: green;">THEKKEKAD, REGD.NO:2337</p>
+
+  
+</header>
+
+<nav>
+  <a href="#details">About</a>
+ <a href="assets/img/details.pdf" class="nav__link">Details</a></li>
+  <a href="#location">Location</a>
+  <a href="#gallery">Photos</a>
+  <a href="#activities">Activities</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="details" class="container">
+  <h2>About Our Madarsa</h2>
+  <p>Our Madrasa is dedicated to providing comprehensive Islamic education, blending religious studies with modern academic subjects. We focus on Quranic memorization, Arabic language, Islamic jurisprudence, and moral development, ensuring students grow spiritually and intellectually. Our aim is to nurture well-rounded individuals who contribute positively to society. We provide a supportive, inclusive environment for students of all ages, equipping them with the knowledge and values necessary for both religious and worldly success..</p>
+  <img src="assets/img/muwafakm.jpeg" alt="Description of the image" />
+ <div style="background-color: #ffffff; padding: 20px; display: inline-block; border-radius: 8px;">
+  <a href="tel:+918129886664" class="button" style="color: white; text-decoration: none; background-color: #0056b3; padding: 10px 20px; border-radius: 5px; display: inline-flex; align-items: center; gap: 8px;">
+    <i class='bx bx-phone'></i>Contact
+  </a>
+</div>
+
+</section>
+
+
+<section id="location" class="container">
+  <h2>Our Location</h2>
+  <p>Padanna Thekkekad, Kasargod City, State-kerala</p>
+  <p><strong>Phone:</strong> +91-8129886664</p>
+  <p><strong>Email:</strong> rifahiya@gmail.com</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15601.381042420508!2d75.14286274999999!3d12.1568812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4713baac2d511%3A0xbc1af6495fcb95f5!2sRIFAYI%20MASJID!5e0!3m2!1sen!2sin!4v1746727567821!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section id="gallery" class="container">
+  <h2>Photos</h2>
+  <div class="gallery">
+    <img src="assets/img/madarasa.jpg" alt="madarasa Building">
+    <img src="assets/img/1class.jpg" alt="Classroom">
+    <img src="assets/img/2class.jpg" alt="Classroom">
+    <img src="assets/img/audi.jpg" alt="Auditorium">
+    <img src="assets/img/musj.jpg" alt="Musjid">
+  </div>
+</section>
+
+<section id="activities" class="container">
+  <h2>Extra Curricular Activities</h2>
+  <ul>
+    <li>Sports (Football, Basketball, Cricket)</li>
+    <li>Art and Craft</li>
+    <li>Robotics and Coding Club</li>
+  </ul>
+</section>
+
+<section id="contact" class="container">
+  <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+        <!-- Formspree Form -->
+        <form action="https://formspree.io/f/mwpobwyw" method="POST" class="contact__form">
+            <!-- Name Field -->
+            <input type="text" name="name" placeholder="Name" class="contact__input" required>
+            
+            <!-- Email Field -->
+            <input type="email" name="email" placeholder="Email" class="contact__input" required>
+            
+            <!-- Message Field -->
+            <textarea name="message" id="" cols="0" rows="10" class="contact__input" required></textarea>
+            
+            <!-- Submit Button -->
+            <input type="submit" value="Send" class="contact__button button">
+        </form>
+    </div>
+</section>
+
+<footer>
+  <p class="footer__title">MAHDANUL ULUM THEKKEKAD</p>
+  <p>&copy; 2025 Mahdanul ulum All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
